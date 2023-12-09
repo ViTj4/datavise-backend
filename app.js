@@ -1,10 +1,10 @@
 const express     = require('express')
 const app         = express()
 const verifyToken = require('./middlewares/auth-middleware')
-
+const cors        = require('cors')
 
 app.use(express.json())
-
+app.use(cors())
 const PORT = process.env.PORT || 3000
 
 
