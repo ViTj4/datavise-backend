@@ -1,1 +1,5 @@
-# datavise-backend
+#datavise-backend
+
+install dependencies :
+
+- npm install
