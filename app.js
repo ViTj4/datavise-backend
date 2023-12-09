@@ -11,8 +11,6 @@ const PORT = process.env.PORT || 3000
 app.post('/verify-ressource', verifyToken, (req, res) => {
   res.send('triggered verify-ressource route')
 })
-app.use('/user')
-
 
 app.get('/', (req, res) => {
   res.send('Bienvenue sur mon API Express !')
